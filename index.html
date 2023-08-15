@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imagenes/bfe8d015-65ce-4f5d-a800-8d3da1502b38.jpg">
+    <!-- RECUERDEN MODIFICAR EL TITULO , Linkear el archivo CSS y agregar el FAVICON -->
+    <title>Mi primer sitio web</title>
+    <link rel=" stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+    <!-- Dividir nuestro BODY en tres secciones -->
+    <!-- HEADER, donde pondremos la barra de navegación -->
+  <header>
+      <div class="navegacion"> 
+        <nav>
+          <a href="#"> 
+            <img src="imagenes/dumbbell_2__28b_w_29.jpg" alt="alt" class="portada">
+          </a>
+          <div class="nav-estilo"> 
+            <ul class="mod-header">
+                <li class="l1"> <a href="#">Horarios </a></li>
+                <li class="l2"> <a href="#">Sedes </a></li>
+                <li class="l3"> <a href="#">Entrenamientos</a></li>
+           </ul>
+          </div>
+        </nav>
+      </div>
+  </header>
+    <!-- MAIN, donde ira tooodo el contendio de la página, divido en secciones -->
+    <!-- Recuerden utilizar un unico H1 en la página, el resto de los titulos de las secciones va a ser H2 -->
+    <!-- Dentro de cada sección puede poner el contenido que ustedes quieran  -->
+    <section id="primera-seccion"  class="secciones-css">
+      <h1 class="titulo-pricipal">Burpee Team</h1>
+        <p>Aqui hablaremos sobre como se organiza este equipo y el entrenamiento que otorga el entrenador a cada alumno</p>
+    </section>
+    <main>
+        <section id="linkeado" class="secciones-css" > 
+          <h2> Descubre tu verdadero potencial junto a nosotros</h2>
+          <p class="motivacion"> Recuerda que sos vos contra vos, nadie sabe del proceso interno de cada uno.
+             Si llegaste hasta donde estas es por tu esfuerzo, persistencia y deseo</p>
+          <a href="Planificacion.html" > Ir a planificacion y evolucion inteligente </a> 
+          <div> </div>
+          <img src="imagenes/bfe8d015-65ce-4f5d-a800-8d3da1502b38.jpg" class="imagen-brp"> 
+          </section>
+        <section id="segunda-seccion"  class="secciones-css">
+          <h2>Los progresos</h2>
+          <div> 
+            <p> Hablaremos como debemos entrenar para obtener los mejores resultados </p>
+          </div>
+          <div>
+            <ul>  
+              <li> Sobrecarga progresiva </li>
+              <li> Fallo muscular </li>
+             <li> Rir de repeticiones </li>
+            </ul>
+          </div>
+          <a href="https://www.instagram.com/brpteam_/"> Enlace a nuestro perfil!  </a>
+        </section>
+            <section id="Equipo"  class="secciones-css">
+               <h2>Por qué elegirnos? </h2>
+               <p> Te ayudamos a conseguir lo que te propongas con un siguimiento constante </p>
+           </section>
+           <div class="caja-img"> 
+            <img src="imagenes/personal-trainer-scaled.jpg" class="personal-trainer">
+            <img class="personal-trainer" src="imagenes/todo_progreso_ocurre_fuera_de_tu_zona_de_confort_314_43_600.jpg">
+            </div>
+            <section id="Nosotros" class="secciones-css"> 
+              <h2>Contactáctanos</h2>
+              <fieldset> 
+                <form action="texto.text" method=" post" enctype="text/plain"> 
+                  <input type="email" placeholder="Mail">
+                   <div> </div>
+                   <input type="Usuario" placeholder=" Nombre y Apellido">
+                   <div> </div>
+                   <input type="Submit" value="Enviar">
+              </form>
+              </fieldset>
+            </section>
+    </main>
+    <div class="contenedor-padre"> 
+      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+      <a href="/entrenamiento.html"> Decide con que profesor empezar! </a>
+    </div>
+    <!-- Por último, el FOOTER, nuestro pie de página, donde vamos a poner información relacionada a contacto (email, telefono, etc ) y puede ir links de navegación-->
+    <footer class="footer">
+      <div class="f-style"> 
+        <h4> Nuestras redes! </h4>
+        <p> Email:brp@gmail.com</p>
+        <p> Instagram:brpteam_</p>
+        <p> Tel:123-456789</p>
+      </div>
+      <div class="lista"> 
+        <ul> 
+          <li class="lista1"><a href="#">Suplementacion </a>  </li>
+          <li class="lista2"> <a href="#">Entrenamientos </a></li>
+          <li class="lista3"><a href="#">Dietas </a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/bootstrap.js"> </script>
+  </body>
+</html>
