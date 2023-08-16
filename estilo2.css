@@ -4,3 +4,15 @@
 .footer{
     background-color: rgba(48, 48, 48, 0.137);
 }
+@media (max-width:600px){
+    .imagen-1{
+    margin: 50px 50px 50px 90px;
+    }
+}
+@media (min-width:800px){
+#section1{
+    background-color: rgb(16, 16, 61);
+    font-weight: 600px;
+    color: white;
+    }
+}

@@ -19,8 +19,7 @@ width: 100px;
 margin-left:0px;
 }
 .nav-estilo{
-    position: absolute;
-    margin-left: 1200px;
+    text-align: end;
     bottom: 10px;
 }
 .navegacion div.nav-estilo ul li.l1{
@@ -177,5 +176,17 @@ section#linkeado a:active{
     background-color: gray;
 }
 section#linkeado a:visited {
+    color: indianred;
+}
+section#link-de-items a:link {
+    color: violet;
+}
+section#link-de-items a:hover{
+    color: blue;
+}
+section#link-de-items a:active{
+    background-color: gray;
+}
+section#link-de-items a:visited {
     color: indianred;
 }
