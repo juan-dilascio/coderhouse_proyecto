@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="imagenes/bfe8d015-65ce-4f5d-a800-8d3da1502b38.jpg">
     <!-- RECUERDEN MODIFICAR EL TITULO , Linkear el archivo CSS y agregar el FAVICON -->
-    <title>Mi primer sitio web</title>
-    <link rel=" stylesheet" href="estilos.css">
+    <title>Burpee team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/style.css">
   </head>
   <body>
     <!-- Dividir nuestro BODY en tres secciones -->
@@ -14,14 +16,16 @@
   <header>
       <div class="navegacion"> 
         <nav>
+         <div>  
           <a href="#"> 
-            <img src="imagenes/dumbbell_2__28b_w_29.jpg" alt="alt" class="portada">
+          <img src="imagenes/dumbbell_2__28b_w_29.jpg" alt="alt" class="portada">
           </a>
+         </div>
           <div class="nav-estilo"> 
             <ul class="mod-header">
-                <li class="l1"> <a href="Planificacion.html">Equipo</a></li>
-                <li class="l2"> <a href="Nosotros.html">Sedes </a></li>
-                <li class="l3"> <a href="entrenamiento.html">Entrenamientos</a></li>
+                <li class="l1"> <a href="Planificacion.html">Entrenamiento</a></li>
+                <li class="l2"> <a href="sponsor.html">Sponsor </a></li>
+                <li class="l3"> <a href="Nosotros.html">Preparaciones</a></li>
            </ul>
           </div>
         </nav>
@@ -80,30 +84,40 @@
     </main>
     <section id="link-de-items">
     <div class="contenedor-padre"> 
-      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-      <p class="items" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+      <p class="items" > Fuerza </p>
+      <p class="items" > Resistencia </p>
+      <p class="items" > Alimentación</p>
+      <p class="items" > Masa muscular </p>
+      <p class="items" > Fallo muscular </p>
+      <p class="items" > Intensidad </p>
       <a href="/entrenamiento.html"> Decide con que profesor empezar! </a>
     </div>
     </section>
     <!-- Por último, el FOOTER, nuestro pie de página, donde vamos a poner información relacionada a contacto (email, telefono, etc ) y puede ir links de navegación-->
     <footer class="footer">
-      <div class="f-style"> 
-        <h4> Nuestras redes! </h4>
-        <p> Email:brp@gmail.com</p>
-        <p> Instagram:brpteam_</p>
-        <p> Tel:123-456789</p>
+    <div class="general-group">
+      <div class="imagen-ft"> 
+        <a href="#"> 
+          <img class="img__1" src="imagenes/bfe8d015-65ce-4f5d-a800-8d3da1502b38.jpg" alt="imagen del equipo">
+        </a>
       </div>
-      <div class="lista"> 
-        <ul> 
-          <li class="lista1"><a href="#">Suplementacion </a>  </li>
-          <li class="lista2"> <a href="#">Entrenamientos </a></li>
-          <li class="lista3"><a href="#">Dietas </a></li>
-        </ul>
+      </div class= "footer1">
+        <div class="caja"> 
+        <h3 class="titulo__1">SOBRE NOSOTROS  </h3>
+        <p class="texto__1"> No te pierdas nuestro increíble servicio</p>
+        </div>
+      <div class="lacaja"> 
+        <h3 class="titulo__2"> NUESTRAS REDES </h3>
+        <br>
+        <a class="decoration"  href="#"> brpteam@gmail.com</a>
+        <br> 
+        <a class="decoration" href="https://www.instagram.com/brpteam_/"> Instagram: Brpteam_ </a>
       </div>
+    </div> 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
